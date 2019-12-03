@@ -1,0 +1,91 @@
+head{
+}
+
+body{
+	background-color: #f1d4d4
+}
+h1{
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #ac8daf;
+  border-right: 15px;
+  border-left: 15px;
+  font-weight: lighter;
+  font-size: 35px;
+  text-align: center;
+  border-style: ;
+}
+p{
+	text-align: center;
+}
+h2 {
+  font-family: Courier;
+  color: #484c7f;
+  font-weight: lighter;
+  font-size: 12px;
+  text-align: center;
+}
+
+#banner{
+	text-align: center;
+	background-image: url("images/paysage.jpg");
+	background-size: cover;
+	background-position: center;
+	padding: 150px 0;
+	color: white;
+	color: black;
+	font-size: 25px;
+	font-family: Helvetica
+}
+#banner img {
+  border-radius: 50%;
+  margin-bottom: 40px;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+#footer{
+  padding: 30px;
+  background-color: black;
+  color: lightgrey;
+}
+.card-white {
+  background-color: white;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 16px;
+  margin: 16px 0px;
+}
+.card-white img {
+  margin-bottom: 20px;
+}
+.btn-blue {
+  color: white;
+  background-color: #6772e5;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 15px 20px;
+}
+.btn-blue:hover {
+  color: white;
+}
+.cards {
+  margin: 15px auto;
+  width: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+} 
+
+@media(max-width: 992px){
+  .cards{
+  width: 750px;
+  }
+}
+@media(max-width: 768px){
+  .cards{
+  width: 90%;
+  grid-template-columns: 1fr;
+  }
+}
